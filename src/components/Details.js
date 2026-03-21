@@ -17,10 +17,10 @@ export default function Details({cocktail}){
             </h1>
                 
             <div className="flex flex-wrap gap-3 mb-8 text-txt1 font-bold">
-                <span className="px-5 py-2.5 bg-bg1 text-txt2 rounded-full text-md shadow-sm border border-txt1/10">
+                <span className="px-5 py-2.5 bg-mode/40 text-txt2 rounded-full text-md shadow-sm border border-txt1/10">
                     {cocktail.category}
                 </span>
-                <span className="px-5 py-2.5 bg-bg1 text-txt2 rounded-full text-md shadow-sm border border-txt1/10">
+                <span className="px-5 py-2.5 bg-mode/40 text-txt2 rounded-full text-md shadow-sm border border-txt1/10">
                     {cocktail.alcoholic ? "Alcoholic" : "Non-alcoholic"}
                 </span>
             </div>

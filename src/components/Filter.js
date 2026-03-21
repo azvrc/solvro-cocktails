@@ -43,7 +43,7 @@ export default function Filter(){
         <div className="h-8 w-[1px] bg-txt2/20 mx-2 hidden md:block" />
         <select
           onChange={(e) => handleUpdate('category', e.target.value)}
-          className="px-4 py-2 rounded-full text-txt2 bg-mode/40 font-medium cursor-pointer border border-deftxt/10 drop-shadow-xl"
+          className="px-4 py-2 rounded-full text-txt2 bg-mode font-medium cursor-pointer border border-deftxt/10 drop-shadow-xl"
           value={searchParams.get('category') || ""}
         >
           <option value="" disabled hidden>Choose a category</option>
